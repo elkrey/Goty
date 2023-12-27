@@ -1,0 +1,10 @@
+dependencies {
+    implementation project(':model')
+    implementation 'org.springframework:spring-context'
+    implementation 'com.fasterxml.jackson.core:jackson-databind'
+    implementation 'org.modelmapper:modelmapper:3.1.1'
+}
+
+repositories {
+    mavenCentral()
+}
